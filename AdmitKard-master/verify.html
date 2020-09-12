@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Login</title>
+  </head>
+
+  <body class="text-center center">
+    <div class="center">
+      <div>
+        <img
+          class="admitlogo"
+          src="../AdmitKard-master/verify.png"
+          alt="admitkard_logo"
+        />
+      </div>
+      <div>
+        <h1>Please verify mobile number</h1>
+        <p>An otp is send to your number</p>
+        <a href="./home.html">Change phone number</a>
+        <form action="https://www.admitkard.com/new/" action="POST">
+          <div class="otp-div">
+            <input class="otp" type="tel" maxlength="1" id="otp1" />
+            <input class="otp" type="tel" maxlength="1" id="otp2" />
+            <input class="otp" type="tel" maxlength="1" id="otp3" />
+            <input class="otp" type="tel" maxlength="1" id="otp4" />
+          </div>
+          <p>Didn't receive the code?</p>
+          <a href="">Resend</a>
+          <button
+            class="btn btn-lg  btn-block"
+            type="submit"
+            onclick="promt()"
+          >
+            Verify
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

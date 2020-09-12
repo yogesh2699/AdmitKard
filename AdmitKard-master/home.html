@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Login</title>
+  </head>
+
+  <body class="text-center center">
+    <div class="center">
+      <div>
+        <img
+          class="logo"
+          src="https://s3-ap-southeast-1.amazonaws.com/letsintern.com/images-employer/804873885.png"
+          alt="admitkard_logo"
+        />
+      </div>
+      <div>
+        <h1 class="h3 mb-3">Welcome Back</h1>
+        <p>Please sign in to your account</p>
+      </div>
+      <div class="center">
+        <form action="./verify.html">
+          <div class="input-group form-signin">
+            <input
+              type="tel"
+              class="form-control"
+              id="telephone"
+              placeholder="Enter contact number"
+            />
+          </div>
+
+          <p class="small">We will send you a one time SMS message</p>
+          <p class="small">Charges may apply</p>
+          <button class="btn btn-lg  btn-block" type="submit">
+            Sign In with OTP
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+  <script src="build/js/intlTelInput-jquery.min.js"></script>
+</html>

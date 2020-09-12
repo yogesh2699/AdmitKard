@@ -1,0 +1,133 @@
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: white;
+}
+h3{
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  
+  color: #000000;
+}
+p{
+  font-family: Work Sans;
+}
+h1 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  
+  color: #000000;
+}
+
+
+form {
+  width: 300px;
+  margin: auto;
+}
+
+a {
+  color: orange;
+  margin: 1.5em;
+  font-family: Work Sans;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  width: 30%;
+  height: 30%;
+  align-content: center;
+  padding: 50px;
+  margin-top: 0;
+}
+
+.small {
+  size: 10px;
+  color: gray;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.otp_div {
+  padding: 10px;
+}
+.center {
+  margin: auto;
+}
+
+#partitioned {
+  padding-left: 15px;
+  letter-spacing: 42px;
+  border: 0;
+  background-image: linear-gradient(
+    to left,
+    black 70%,
+    rgba(255, 255, 255, 0) 0%
+  );
+  background-position: bottom;
+  background-size: 50px 1px;
+  background-repeat: repeat-x;
+  background-position-x: 35px;
+  width: 220px;
+  min-width: 220px;
+}
+
+#divInner {
+  left: 0;
+  position: sticky;
+}
+
+#divOuter {
+  width: 190px;
+  overflow: hidden;
+}
+
+.otp {
+  padding: 10px;
+  border: 1px solid #E5E5E5;
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  font-size: 18px;
+}
+.btn-block{
+    display: initial;
+    background: #F7B348;
+    border-radius: 100px;
+    border-color: #F7B348 ;
+    width: 224px;
+    height: 36px;
+    padding: 0.5rem 0.5rem;
+    font-size: 16px;
+    line-height: 0.5;
+    margin-top: 4em;
+    color: #ffff;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .logo{
+    width: 100%;
+  }
+}
